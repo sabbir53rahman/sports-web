@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{margin:0px; padding:0px;}
+.wrapper{
+    width:960px;
+    margin:0 auto;
+    background-image:url("images/cricket4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top:5px;
+}
+
+}
+.menu{
+  
+   margin-top:20px;
+}
+.menu ul{
+    list-style-type:none;
+    float:right;
+    margin-top:20px;
+    display:block;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+
+.menu ul li{
+    display:inline;
+    margin-top:10px;
+}
+.menu ul li a{
+    text-decoration:none;
+   
+    padding:5px 10px;
+    margin-left:10px;
+    color:white;
+    border:1px solid white;
+    transition:.6s ease;
+    border-radius:2px;
+}
+.menu ul li a:hover{
+    background-color:white;
+    color:black;
+}
+#mine{
+    width:960px;
+  
+}
+
+
+#mine h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size:23px;
+    text-align: center;
+    padding-top:20px;
+    color: white;
+}
+#mine h3.first_headding{
+    padding-top:70px;
+}
+
+.article_wrapper{
+    margin-top:15px;
+    padding-bottom:15px;
+    
+}
+.article_wrapper img{
+    width:90px;
+    height:90px;
+    float:left;
+    margin-right:5px;
+    padding:5px;
+    background-color:gray;
+    border:1px solid white;
+    margin-left:5px;
+}
+.article_wrapper p{
+    line-height:20px;
+    display:block;
+    color:black;
+}

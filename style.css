@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+*{margin:0px;padding:0px;}
+
+
+.mine{
+    background-image:url("images/sports5.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:960px;
+    height:600px;
+    margin:0 auto;
+    margin-top:5px;
+}
+header{
+    
+}
+.divheader{
+    display:block;
+}
+.logo img{
+   width:50px;
+    float:left;
+    margin-left:50px;
+}
+.menu{
+  
+}
+.menu ul{
+    list-style-type:none;
+    margin-top:20px;
+    float:right;
+    margin-right:10px;
+}
+
+.menu ul li{
+    display:inline;
+    margin-top:10px;
+}
+.menu ul li a{
+    text-decoration:none;
+    margin-top:110px;
+    padding:5px 10px;
+    margin-left:10px;
+    color:white;
+    border:1px solid white;
+    transition:.6s ease;
+    border-radius:2px;
+}
+.menu ul li a:hover{
+    background-color:white;
+    color:black;
+}
+
+.heading{
+    margin:0 auto;
+    width:960px;
+    float:left;
+   text-align:center;
+   height:550px;
+}
+.heading h1{
+    color:#fff;
+    font-family: 'Roboto Slab', serif;
+    margin-top:100px;
+    font-size:60px;
+    margin-bottom:20px;
+}
+.heading a{
+    padding:5px 10px;
+    color:white;
+    text-decoration:none;
+    border:1px solid white;
+    transition:.6s ease;
+    margin-left:20px;
+    margin-right:20px;
+    border-radius:5px;
+    font-weight:bold;
+}
+.heading  a:hover{
+    background-color:white;
+    color:black;
+    margin-top:5px;
+   
+}
